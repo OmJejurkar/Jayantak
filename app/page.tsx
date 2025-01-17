@@ -19,7 +19,7 @@ export default function Home() {
         >
           <section className="text-center mb-16">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
-              Welcome to <br>Jayantak Media Solutions Pvt. Ltd.
+              Welcome to<br />Jayantak Media Solutions Pvt. Ltd.
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
               Transforming Digital Campaigns{" "}
