@@ -24,7 +24,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="text-2xl font-bold relative group">
-  <img src="/logo.jpg" alt="Logo" className="inline-block h-8 mr-2" />
+  <img src="public/logo.jpg" alt="Logo" className="inline-block h-8 mr-2" />
   <span className="text-sm bg-gradient-to-r from-white to-orange-300 bg-clip-text text-transparent">
     Jayantak Media Solutions Pvt. Ltd.
   </span>
