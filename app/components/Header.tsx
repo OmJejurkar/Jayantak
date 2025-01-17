@@ -24,12 +24,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="text-2xl font-bold relative group">
-            <img src="../logo.jpg" alt="Logo" className="inline-block h-8 mr-2" />
-            <span className="text-sm bg-gradient-to-r from-white to-orange-300 bg-clip-text text-transparent">
-              Jayantak Media Solutions Pvt. Ltd.
-            </span>
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
-          </Link>
+  <img src="/logo.jpg" alt="Logo" className="inline-block h-8 mr-2" />
+  <span className="text-sm bg-gradient-to-r from-white to-orange-300 bg-clip-text text-transparent">
+    Jayantak Media Solutions Pvt. Ltd.
+  </span>
+  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
+</Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
