@@ -1,6 +1,4 @@
 // next.config.mjs
-import { mergeConfig } from './v0-user-next.config'
-
 let userConfig = undefined
 try {
   userConfig = await import('./v0-user-next.config')
@@ -24,10 +22,8 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  basePath: '/repo-name', // Add this line
+  basePath: '/Jayantak', // Ensure this line is correct
 }
-
-mergeConfig(nextConfig, userConfig)
 
 function mergeConfig(nextConfig, userConfig) {
   if (!userConfig) {
@@ -48,5 +44,7 @@ function mergeConfig(nextConfig, userConfig) {
     }
   }
 }
+
+mergeConfig(nextConfig, userConfig)
 
 export default nextConfig
